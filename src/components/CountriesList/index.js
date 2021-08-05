@@ -15,6 +15,7 @@ export default function CountriesList(props) {
             data-toggle="list"
             role="tab"
           >
+            <img src={country.flag} alt="flag" className="country-flag"></img>{' '}
             {country.name}
           </Link>
         );

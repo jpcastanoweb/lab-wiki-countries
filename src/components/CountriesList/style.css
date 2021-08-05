@@ -2,3 +2,7 @@
     max-height: 80vh; 
     overflow: scroll;
 }
+
+.country-flag {
+    width: 15px;
+}

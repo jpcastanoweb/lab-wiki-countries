@@ -14,7 +14,7 @@ function App() {
   useEffect(() => {
     const getCountries = async () => {
       const res = await axios.get(
-        'https://restcountries.eu/rest/v2/all?fields=name;alpha3Code;'
+        'https://restcountries.eu/rest/v2/all?fields=name;alpha3Code;flag;'
       );
 
       setCountries(res.data);
